@@ -30,3 +30,40 @@ body {
     border: 2px solid black;
     cursor: pointer;
 }
+.wall {
+    background: blue;
+    width: 40px;
+    height: 40px;
+}
+
+.point {
+    background: lightgrey;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#player {
+    background: yellow;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.enemy {
+    background: green;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.life {
+    background: red;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 2px;
+}
